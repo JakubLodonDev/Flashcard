@@ -7,7 +7,7 @@ Strona internetowa do nauki języków obcych. Projekt będzie zawierał relacyjn
 
 ## Założenia programu „Flashcard”
 <ol>
-  <li>1.	Tworzenie lekcji:
+  <li>Tworzenie lekcji:
     <ul>
       <li>Tworzenie lekcji:</li>
       <li>Zawiera</li>
