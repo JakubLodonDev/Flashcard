@@ -8,6 +8,7 @@ public class Flashcard {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
     private String phrase;
     private String translation;
     private boolean done;
@@ -15,11 +16,11 @@ public class Flashcard {
     public Flashcard() {
     }
 
-    int getId() {
+    public int getId() {
         return id;
     }
 
-    void setId(int id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -39,11 +40,11 @@ public class Flashcard {
         this.translation = translation;
     }
 
-    boolean isDone() {
+    public boolean isDone() {
         return done;
     }
 
-    void setDone(boolean done) {
+    public void setDone(boolean done) {
         this.done = done;
     }
 }
