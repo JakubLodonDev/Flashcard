@@ -14,6 +14,8 @@ public interface FlashcardRepository {
 
     Optional<Flashcard> findById(Integer id);
 
+    boolean existsById(Integer id);
+
     Flashcard save(Flashcard entity);
 
     void deleteById(Integer id);
