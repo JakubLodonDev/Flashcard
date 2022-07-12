@@ -1,0 +1,10 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: '/console'
+  datasource:
+    url: 'jdbc:h2:file:F:\Udemy course\todo-app\todo-db'
+  jpa:
+    hibernate:
+      ddl-auto=: validate
