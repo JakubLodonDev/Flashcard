@@ -3,7 +3,7 @@ package com.flashcard;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "flashcard")
+@Table(name = "flashcards")
 public class Flashcard {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
